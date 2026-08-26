@@ -1,9 +1,9 @@
 ---
-number: "127"
+number: "129"
 title: "ツール　効率化　Adobe　CC"
 chapter: "ツール"
 description: "作業できなくてもいい。ツールの「限界」と「可能性」を知っておくべし"
-permalink: /dict/127/
+permalink: /dict/129/
 ---
 
 #### 10秒でわかる！要点まとめ

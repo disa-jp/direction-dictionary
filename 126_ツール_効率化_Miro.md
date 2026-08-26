@@ -1,9 +1,9 @@
 ---
-number: "124"
+number: "126"
 title: "ツール　効率化　Miro"
 chapter: "ツール"
 description: "物理的な「ホワイトボード」をデジタルで再現。どこからでも大人数で同時に議論できる"
-permalink: /dict/124/
+permalink: /dict/126/
 ---
 
 #### 10秒でわかる！要点まとめ

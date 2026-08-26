@@ -1,9 +1,9 @@
 ---
-number: "130"
+number: "132"
 title: "ツール　効率化　Chatwork"
 chapter: "ツール"
 description: "日本の中小企業とクライアントワークで広く使われているビジネスチャット"
-permalink: /dict/130/
+permalink: /dict/132/
 ---
 
 #### 10秒でわかる！要点まとめ
