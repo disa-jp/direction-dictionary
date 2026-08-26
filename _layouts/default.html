@@ -3,11 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{% if page.title and page.title != site.title %}{{ page.title }}｜{% endif %}{{ site.title }}</title>
+{% assign tparts = page.title | split: "　" %}{% assign shortname = tparts | last %}
+<title>{% if page.title and page.title != site.title %}{{ shortname }}｜{% endif %}{{ site.title }}</title>
 <meta name="description" content="{{ page.description | default: site.description }}">
 <link rel="canonical" href="{{ page.url | absolute_url }}">
 <meta property="og:type" content="article">
-<meta property="og:title" content="{{ page.title | default: site.title }}">
+<meta property="og:title" content="{{ shortname | default: site.title }}">
 <meta property="og:description" content="{{ page.description | default: site.description }}">
 <meta property="og:site_name" content="{{ site.title }}">
 <meta name="author" content="{{ site.author }}">
@@ -37,7 +38,10 @@ th,td{border:1px solid var(--line);padding:8px 10px;text-align:left}
 code{background:var(--card);padding:2px 5px;border-radius:4px;font-size:88%}
 .toc h2{font-size:17px;margin:36px 0 8px}
 .toc ul{padding-left:0;list-style:none}
-.toc li{padding:5px 0;border-bottom:1px solid var(--line);font-size:15px}
+.toc li{padding:6px 0;border-bottom:1px solid var(--line);font-size:15px}
+.toc .mid{color:var(--mut);font-size:12px;margin-right:7px}
+.crumb{color:var(--mut);font-size:13px;margin-bottom:10px}
+.crumb a{color:var(--mut)}
 .toc .n{color:var(--mut);font-variant-numeric:tabular-nums;margin-right:10px;font-size:13px}
 nav.pager{display:flex;justify-content:space-between;gap:16px;margin:48px 0 0;font-size:14px}
 footer.site{border-top:1px solid var(--line);margin-top:56px;padding:24px 0 60px;color:var(--mut);font-size:13px}
