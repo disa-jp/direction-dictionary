@@ -1,5 +1,5 @@
 ---
-number: 110
+number: "110"
 title: "プロモーション　プロモーション戦略　プロモーションKPI・KGI設定"
 chapter: "プロモーション"
 description: "「売上（KGI）」を達成するために、「いくらで客を呼ぶか（CPA）」を握る設計図"

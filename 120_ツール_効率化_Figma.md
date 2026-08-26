@@ -1,5 +1,5 @@
 ---
-number: 120
+number: "120"
 title: "ツール　効率化　Figma"
 chapter: "ツール"
 description: "「デザインだけのツール」ではない。チームで設計を描き、仕様を確認しあう標準化"

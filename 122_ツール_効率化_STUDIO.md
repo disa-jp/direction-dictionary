@@ -1,5 +1,5 @@
 ---
-number: 122
+number: "122"
 title: "ツール　効率化　STUDIO"
 chapter: "ツール"
 description: "「コーディングなし」でWebサイトが作れる。デザイン＝実装となる革命的ツール"

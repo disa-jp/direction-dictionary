@@ -1,5 +1,5 @@
 ---
-number: 130
+number: "130"
 title: "ツール　効率化　Chatwork"
 chapter: "ツール"
 description: "日本の中小企業とクライアントワークで広く使われているビジネスチャット"

@@ -1,5 +1,5 @@
 ---
-number: 015
+number: "015"
 title: "企画・プロデュース　数値目標　KPI・KGI設定"
 chapter: "企画・プロデュース"
 description: "KGIは「最終ゴール（売上）」、KPIはそこに至る「中間チェックポイント（訪問数など）」"

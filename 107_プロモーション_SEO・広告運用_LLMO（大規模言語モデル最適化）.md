@@ -1,5 +1,5 @@
 ---
-number: 107
+number: "107"
 title: "プロモーション　SEO・広告運用　LLMO（大規模言語モデル最適化）"
 chapter: "プロモーション"
 description: "SEOの次に来る概念。Webサイトを「Google」ではなく「AI」に正しく理解させる技術"

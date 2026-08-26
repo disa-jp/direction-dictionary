@@ -1,5 +1,5 @@
 ---
-number: 127
+number: "127"
 title: "ツール　効率化　Adobe　CC"
 chapter: "ツール"
 description: "作業できなくてもいい。ツールの「限界」と「可能性」を知っておくべし"

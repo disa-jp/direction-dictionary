@@ -1,5 +1,5 @@
 ---
-number: 128
+number: "128"
 title: "ツール　効率化　Notion"
 chapter: "ツール"
 description: "ドキュメント、タスク、データベースが1つになった「情報の置き場」"
