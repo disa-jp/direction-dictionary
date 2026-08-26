@@ -1,7 +1,7 @@
 title: ディレクション辞書
 description: Webディレクションの実務で使う用語・業務・考え方を、1項目1ページでまとめた辞書。一般社団法人ディレクションサポート協会（DiSA）制作。全138項目。
-url: https://disa-jp.github.io
-baseurl: /direction-dictionary
+url: https://dic.drsp.cc
+baseurl: ""
 lang: ja
 author: 一般社団法人ディレクションサポート協会（DiSA）
 org_url: https://drsp.cc/
@@ -17,6 +17,7 @@ defaults:
 
 exclude:
   - README.md
+  - CNAME
   - LICENSE
   - Gemfile
   - Gemfile.lock

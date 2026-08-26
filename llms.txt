@@ -21,7 +21,11 @@
 - 採用（8項目）— ディレクター採用の求人票設計から業務委託まで
 
 ## Docs
-- [目次（全138項目）](https://disa-jp.github.io/direction-dictionary/)
+<<<<<<< HEAD
+- [目次（全138項目）](https://dic.drsp.cc/)
+=======
+- [目次（全137項目）](https://dic.drsp.cc/)
+>>>>>>> feat/renumber-license-pages
 - [ソース（GitHub）](https://github.com/disa-jp/direction-dictionary)
 - [制作: 一般社団法人ディレクションサポート協会](https://drsp.cc/)
 
