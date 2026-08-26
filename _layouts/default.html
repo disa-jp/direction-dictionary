@@ -11,6 +11,8 @@
 <meta property="og:description" content="{{ page.description | default: site.description }}">
 <meta property="og:site_name" content="{{ site.title }}">
 <meta name="author" content="{{ site.author }}">
+<link rel="icon" href="{{ '/assets/favicon.png' | relative_url }}" type="image/png">
+<link rel="apple-touch-icon" href="{{ '/assets/favicon.png' | relative_url }}">
 <style>
 :root{--bg:#fff;--fg:#1a1a1a;--mut:#666;--line:#e5e5e5;--acc:#0b5fff;--card:#fafafa}
 @media(prefers-color-scheme:dark){:root{--bg:#151517;--fg:#e8e8e8;--mut:#a0a0a0;--line:#303034;--acc:#7aa2ff;--card:#1e1e22}}
@@ -18,8 +20,11 @@
 body{margin:0;background:var(--bg);color:var(--fg);font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP",sans-serif;line-height:1.85;font-size:16px}
 .wrap{max-width:760px;margin:0 auto;padding:0 20px}
 header.site{border-bottom:1px solid var(--line);padding:14px 0;margin-bottom:40px}
-header.site a{color:var(--fg);text-decoration:none;font-weight:700}
-header.site .sub{color:var(--mut);font-size:13px;font-weight:400;margin-left:10px}
+.brand{display:inline-flex;align-items:center;gap:11px;color:var(--fg);text-decoration:none}
+.brand .logo{height:21px;width:auto;display:block;flex:none}
+.brand .rule{width:1px;height:18px;background:var(--line);flex:none}
+.brand .name{font-weight:700;font-size:15px;letter-spacing:.01em}
+@media(max-width:420px){.brand{gap:9px}.brand .logo{height:18px}.brand .name{font-size:14px}}
 a{color:var(--acc)}
 h1{font-size:26px;line-height:1.5;margin:0 0 6px}
 h2{font-size:20px;margin:44px 0 12px;padding-bottom:6px;border-bottom:1px solid var(--line)}
@@ -41,7 +46,13 @@ img{max-width:100%}
 </style>
 </head>
 <body>
-<header class="site"><div class="wrap"><a href="{{ '/' | relative_url }}">ディレクション辞書</a><span class="sub">DiSA</span></div></header>
+<header class="site"><div class="wrap">
+<a class="brand" href="{{ '/' | relative_url }}">
+{% include logo.svg %}
+<span class="rule"></span>
+<span class="name">ディレクション辞書</span>
+</a>
+</div></header>
 <main class="wrap">{{ content }}</main>
 <footer class="site"><div class="wrap">
 <p>制作: <a href="{{ site.org_url }}">{{ site.author }}</a>／ソース: <a href="https://github.com/disa-jp/direction-dictionary">GitHub</a></p>
