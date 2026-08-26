@@ -2,8 +2,10 @@
 layout: default
 ---
 <article>
-<p class="meta"><a href="{{ '/' | relative_url }}">目次</a> ／ {{ page.chapter }}</p>
-<h1>{{ page.title }}</h1>
+{% assign parts = page.title | split: "　" %}
+{% assign lead = parts | last %}
+<p class="crumb"><a href="{{ '/' | relative_url }}">目次</a>{% for p in parts %}{% unless forloop.last %} ／ {{ p }}{% endunless %}{% endfor %}</p>
+<h1>{{ lead }}</h1>
 <p class="meta">項目番号 {{ page.number }}</p>
 {{ content }}
 {% assign entries = site.pages | where_exp:"p","p.number != nil" | sort:"number" %}

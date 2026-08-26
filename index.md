@@ -18,7 +18,8 @@ permalink: /
   <h2>{{ ch }}（{{ group.size }}項目）</h2>
   <ul>
   {% for e in group %}
-    <li><span class="n">{{ e.number }}</span><a href="{{ e.url | relative_url }}">{{ e.title }}</a></li>
+    {% assign ps = e.title | split: "　" %}{% assign nm = ps | last %}
+    <li><span class="n">{{ e.number }}</span>{% if ps.size > 2 %}<span class="mid">{{ ps[1] }}</span>{% endif %}<a href="{{ e.url | relative_url }}">{{ nm }}</a></li>
   {% endfor %}
   </ul>
 {% endfor %}
