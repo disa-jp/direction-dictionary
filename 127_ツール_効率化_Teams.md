@@ -1,9 +1,9 @@
 ---
-number: "125"
+number: "127"
 title: "ツール　効率化　Teams"
 chapter: "ツール"
 description: "Microsoft 365のエコシステム全体と強力に連携。Officeファイルの共同編集に強い"
-permalink: /dict/125/
+permalink: /dict/127/
 ---
 
 #### 10秒でわかる！要点まとめ

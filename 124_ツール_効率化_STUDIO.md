@@ -1,9 +1,9 @@
 ---
-number: "122"
+number: "124"
 title: "ツール　効率化　STUDIO"
 chapter: "ツール"
 description: "「コーディングなし」でWebサイトが作れる。デザイン＝実装となる革命的ツール"
-permalink: /dict/122/
+permalink: /dict/124/
 ---
 
 #### 10秒でわかる！要点まとめ

@@ -1,9 +1,9 @@
 ---
-number: "128"
+number: "130"
 title: "ツール　効率化　Notion"
 chapter: "ツール"
 description: "ドキュメント、タスク、データベースが1つになった「情報の置き場」"
-permalink: /dict/128/
+permalink: /dict/130/
 ---
 
 #### 10秒でわかる！要点まとめ

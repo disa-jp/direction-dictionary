@@ -1,9 +1,9 @@
 ---
-number: "126"
+number: "128"
 title: "ツール　効率化　Backlog"
 chapter: "ツール"
 description: "タスクの発生源から完了までを「見える化」する、日本で人気のプロジェクト管理ツール"
-permalink: /dict/126/
+permalink: /dict/128/
 ---
 
 #### 10秒でわかる！要点まとめ
