@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<article>
+<p class="meta"><a href="{{ '/' | relative_url }}">目次</a> ／ {{ page.chapter }}</p>
+<h1>{{ page.title }}</h1>
+<p class="meta">項目番号 {{ page.number }}</p>
+{{ content }}
+<nav class="pager">
+{% assign entries = site.pages | where_exp:"p","p.number" | sort:"number" %}
+{% for e in entries %}{% if e.number == page.number %}{% assign i = forloop.index0 %}{% endif %}{% endfor %}
+{% if i > 0 %}<a href="{{ entries[i | minus: 1].url | relative_url }}">← {{ entries[i | minus: 1].title }}</a>{% else %}<span></span>{% endif %}
+{% assign j = i | plus: 1 %}
+{% if j < entries.size %}<a href="{{ entries[j].url | relative_url }}">{{ entries[j].title }} →</a>{% endif %}
+</nav>
+</article>
