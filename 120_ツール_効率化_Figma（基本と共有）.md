@@ -1,6 +1,6 @@
 ---
 number: "120"
-title: "ツール　効率化　Figma　基本と共有"
+title: "ツール　効率化　Figma（基本と共有）"
 chapter: "ツール"
 description: "「最新のファイルはどれ？」が消える。URLひとつで全員が同じ画面を見て議論できる"
 permalink: /dict/120/

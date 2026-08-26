@@ -1,6 +1,6 @@
 ---
 number: "122"
-title: "ツール　効率化　Figma　仕様の受け渡し"
+title: "ツール　効率化　Figma（仕様の受け渡し）"
 chapter: "ツール"
 description: "挙動は文章で書くな。プロトタイプで触らせたほうが速く、正確に伝わる"
 permalink: /dict/122/
