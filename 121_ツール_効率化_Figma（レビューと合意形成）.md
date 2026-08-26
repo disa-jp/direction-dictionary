@@ -1,6 +1,6 @@
 ---
 number: "121"
-title: "ツール　効率化　Figma　レビューと合意形成"
+title: "ツール　効率化　Figma（レビューと合意形成）"
 chapter: "ツール"
 description: "スクショに赤入れする作業がゼロになる。修正指示をデザインの上に直接貼れる"
 permalink: /dict/121/
