@@ -1,5 +1,5 @@
 ---
-number: 005
+number: "005"
 title: "企画・プロデュース　Webサイト企画　SNS連携企画"
 chapter: "企画・プロデュース"
 description: "WebとSNSは「役割」が違う。相互送客（エコシステム）を作る設計力がカギ"

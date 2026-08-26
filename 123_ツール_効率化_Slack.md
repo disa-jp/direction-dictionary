@@ -1,5 +1,5 @@
 ---
-number: 123
+number: "123"
 title: "ツール　効率化　Slack"
 chapter: "ツール"
 description: "「お疲れ様です」は禁止。挨拶を捨て、用件のみを高速で投げ合うのがチャットの流儀"

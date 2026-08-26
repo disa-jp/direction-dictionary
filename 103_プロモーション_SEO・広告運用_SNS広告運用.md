@@ -1,5 +1,5 @@
 ---
-number: 103
+number: "103"
 title: "プロモーション　SEO・広告運用　SNS広告運用"
 chapter: "プロモーション"
 description: "検索しない「潜在層」にリーチできる唯一の手段。AIターゲティングの精度が勝負を決める"

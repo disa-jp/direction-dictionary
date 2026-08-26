@@ -1,5 +1,5 @@
 ---
-number: 129
+number: "129"
 title: "ツール　効率化　Googleスプレッドシート"
 chapter: "ツール"
 description: "ディレクターが最も長く触るツール。見積もり、進行表、ディレクトリマップ、課題管理"

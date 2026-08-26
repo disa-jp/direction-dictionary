@@ -1,5 +1,5 @@
 ---
-number: 121
+number: "121"
 title: "ツール　効率化　WordPress"
 chapter: "ツール"
 description: "「ブログ作成ツール」ではない。世界のWebサイトの4割を動かす巨大なインフラ"

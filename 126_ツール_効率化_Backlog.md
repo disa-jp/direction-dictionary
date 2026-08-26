@@ -1,5 +1,5 @@
 ---
-number: 126
+number: "126"
 title: "ツール　効率化　Backlog"
 chapter: "ツール"
 description: "タスクの発生源から完了までを「見える化」する、日本で人気のプロジェクト管理ツール"

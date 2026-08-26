@@ -1,5 +1,5 @@
 ---
-number: 079
+number: "079"
 title: "サービス運営・運用　アクセス解析　GoogleAnalyticsを使った改善提案"
 chapter: "サービス運営・運用"
 description: "「PV数を見て一喜一憂」は素人。数字の裏にある「ユーザー心理」を読み解く推理ゲーム"
