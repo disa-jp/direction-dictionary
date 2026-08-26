@@ -14,7 +14,7 @@ Webディレクションの実務で使う用語・業務・考え方を、**1�
 | 3. 実務のポイント | 具体的な進め方・つまずきどころ |
 | 4. スキルアップのヒント | 次に何をやればいいか |
 
-**Web版:** https://disa-jp.github.io/direction-dictionary/
+**Web版:** https://dic.drsp.cc/
 
 ファイル名の先頭の番号（001〜137）が、そのまま章立ての並び順です。Web版のURLもこの番号に対応します（例: `/dict/060/` ＝ WBS）。
 
@@ -25,7 +25,7 @@ Webディレクションの実務で使う用語・業務・考え方を、**1�
 出典表記の例:
 
 > 出典: ディレクション辞書／一般社団法人ディレクションサポート協会（DiSA）
-> https://disa-jp.github.io/direction-dictionary/
+> https://dic.drsp.cc/
 
 ## 貢献について
 
