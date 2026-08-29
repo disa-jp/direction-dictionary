@@ -6,6 +6,12 @@ lang: ja
 author: 一般社団法人ディレクションサポート協会（DiSA）
 org_url: https://drsp.cc/
 
+# GA4の測定ID（G-XXXXXXXXXX）。空のあいだはタグを出力しない
+google_analytics: ""
+
+plugins:
+  - jekyll-sitemap
+
 markdown: kramdown
 kramdown:
   input: GFM

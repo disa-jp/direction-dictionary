@@ -48,6 +48,13 @@ footer.site{border-top:1px solid var(--line);margin-top:56px;padding:24px 0 60px
 img{max-width:100%}
 .scroll{overflow-x:auto}
 </style>
+{% if site.google_analytics %}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+<script>
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}
+gtag('js',new Date());gtag('config','{{ site.google_analytics }}');
+</script>
+{% endif %}
 </head>
 <body>
 <header class="site"><div class="wrap">
