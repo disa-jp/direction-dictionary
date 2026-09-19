@@ -6,7 +6,7 @@ layout: default
 {% assign lead = parts | last %}
 <p class="crumb"><a href="{{ '/' | relative_url }}">目次</a>{% for p in parts %}{% unless forloop.last %} ／ {{ p }}{% endunless %}{% endfor %}</p>
 <h1>{{ lead }}</h1>
-<p class="meta">項目番号 {{ page.number }}</p>
+<p class="meta">項目番号 {{ page.number }}{% assign lm = site.data.lastmod[page.number] %}{% if lm %} ／ 最終更新 {{ lm }}{% endif %}</p>
 {{ content }}
 {% assign entries = site.pages | where_exp:"p","p.number != nil" | sort:"number" %}
 {% assign prev = nil %}{% assign next = nil %}{% assign found = false %}

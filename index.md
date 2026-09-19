@@ -10,6 +10,13 @@ permalink: /
 
 <p>全154項目。企画・プロデュースから、情報設計、制作進行、サービス運営、ツール、採用、チーム・組織まで。各ページはすべて同じ型（10秒でわかる要点まとめ／概要／なぜ重要なのか／実務のポイント／スキルアップのヒント）で書かれています。</p>
 
+<h2>最近の更新</h2>
+<ul class="updates">
+{% for u in site.data.updates limit: 6 %}
+  <li><span class="n">{{ u.date }}</span>{{ u.summary }}{% if u.count > 1 %}（{{ u.count }}項目）{% endif %}</li>
+{% endfor %}
+</ul>
+
 <div class="toc">
 {% assign entries = site.pages | where_exp:"p","p.number" | sort:"number" %}
 {% assign chapters = "AI時代のディレクションについて,企画・プロデュース,情報設計・仕様設計,制作・開発ディレクション,サービス運営・運用,プロモーション,ライティング,ツール,採用,チーム・組織" | split:"," %}

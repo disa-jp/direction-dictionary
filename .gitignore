@@ -1,1 +1,3 @@
-.DS_Store
+# ビルド時に scripts/gen_updates.py が生成する
+_data/
+_site/

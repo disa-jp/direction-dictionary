@@ -19,6 +19,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Generate update data from git history
+        run: python3 scripts/gen_updates.py
       - uses: actions/configure-pages@v5
       - uses: actions/jekyll-build-pages@v1
       - uses: actions/upload-pages-artifact@v3
