@@ -65,3 +65,4 @@ LLMOのスキルを上げるには、ChatGPTやGeminiなどのAIに競合他社�
   - 認知・比較・選定・指名という購買段階ごとに見るべき指標を切り分ける
   - 効果測定は数値記録でなく「引用されない理由」を分析し改善につなげること
   - 元記事: <https://white-link.com/sem-plus/llmo-effect-measurement/>／DiSAの紹介: <https://note.com/disa_pr/n/n00c098fb171a>
+- [アドバイスボード #48「AIエージェントに「見つけてもらう」ための情報設計」](https://drsp.cc/tips/48/)
