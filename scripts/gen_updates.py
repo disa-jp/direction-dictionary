@@ -10,7 +10,9 @@ GitHub Pages の標準ビルドではプラグインを追加できないため�
 import subprocess, glob, re, os, datetime
 
 def sh(*a):
-    return subprocess.run(a, capture_output=True, text=True, check=True).stdout
+    # core.quotePath=false: 日本語ファイル名がエスケープされて返るのを防ぐ（CIの既定はtrue）
+    return subprocess.run(["git", "-c", "core.quotePath=false", *a],
+                          capture_output=True, text=True, check=True).stdout
 
 def yq(s):
     return '"' + s.replace('\\', '\\\\').replace('"', '\\"') + '"'
@@ -19,7 +21,7 @@ def yq(s):
 entries = {}
 for path in sorted(glob.glob("[0-9][0-9][0-9]_*.md")):
     num = os.path.basename(path)[:3]
-    date = sh("git", "log", "-1", "--format=%ad", "--date=short", "--", path).strip()
+    date = sh("log", "-1", "--format=%ad", "--date=short", "--", path).strip()
     entries[num] = date or datetime.date.today().isoformat()
 
 os.makedirs("_data", exist_ok=True)
@@ -28,7 +30,7 @@ with open("_data/lastmod.yml", "w", encoding="utf-8") as f:
         f.write(f'"{num}": "{date}"\n')
 
 # 2) 更新履歴（コミット単位。項目ファイルを触ったものだけ）
-log = sh("git", "log", "--date=short", "--format=%x00%ad%x00%s", "--name-only",
+log = sh("log", "--date=short", "--format=%x00%ad%x00%s", "--name-only",
          "--", "[0-9][0-9][0-9]_*.md")
 history = []
 blocks = [b for b in log.split("\x00") if b]
