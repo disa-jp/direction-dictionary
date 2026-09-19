@@ -60,3 +60,8 @@ LLMOのスキルを上げるには、ChatGPTやGeminiなどのAIに競合他社�
   - やらなくていいこと: llms.txt の設置、AI向けの別ページ、薄いページの量産
   - クライアントへの説明の順番: **SEOを否定しない → 足りない所を1つだけ示す → その場で一緒に測る**
   レポート: <https://note.com/disa_pr/n/n2f8e496ed2b5>
+- **オルグロー株式会社 SEM Plus**
+  - 引用率・SOM（言及率）・SOVなど検索順位に代わる複数指標で効果測定
+  - 認知・比較・選定・指名という購買段階ごとに見るべき指標を切り分ける
+  - 効果測定は数値記録でなく「引用されない理由」を分析し改善につなげること
+  - 元記事: <https://white-link.com/sem-plus/llmo-effect-measurement/>／DiSAの紹介: <https://note.com/disa_pr/n/n00c098fb171a>
