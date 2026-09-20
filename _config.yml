@@ -6,7 +6,7 @@ lang: ja
 author: 一般社団法人ディレクションサポート協会（DiSA）
 org_url: https://drsp.cc/
 
-# OGP/Twitterカードの画像（1200x630）。元データは scripts/ogp-source.html
+# OGP/Twitterカードの画像（1200x630）。すけさん作成のキーアートを使用
 ogp_image: https://dic.drsp.cc/assets/ogp.webp
 
 # GA4の測定ID（G-XXXXXXXXXX）。空のあいだはタグを出力しない
