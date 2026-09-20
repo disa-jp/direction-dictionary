@@ -6,8 +6,8 @@ lang: ja
 author: 一般社団法人ディレクションサポート協会（DiSA）
 org_url: https://drsp.cc/
 
-# OGP/Twitterカードの画像（drsp.cc の共通OGPを流用。辞書専用を作ったら差し替える）
-ogp_image: https://drsp.cc/assets/wp/ogp-seminar-webinar-qa.webp
+# OGP/Twitterカードの画像（1200x630）。元データは scripts/ogp-source.html
+ogp_image: https://dic.drsp.cc/assets/ogp.webp
 
 # GA4の測定ID（G-XXXXXXXXXX）。空のあいだはタグを出力しない
 google_analytics: "G-ZF7KNVZYPV"
