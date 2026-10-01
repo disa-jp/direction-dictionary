@@ -59,3 +59,4 @@ permalink: /dict/133/
   - **Claude Code**: 任せて走らせる。納品物（デザインデータ・コード）づくりに向く。渡した型とフォルダの中で完結する
   - どちらもFigmaに読み書きできる。登壇者は**「受注」で線を引き**、受注前の提案は Claude.ai、受注後は Claude Code に任せている
   提案全体の工程分解は [003](../003/) の関連節に
+  レポート: <https://note.com/disa_pr/n/n4ddbcfc0caaa>
